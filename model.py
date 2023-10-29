@@ -1,6 +1,8 @@
 import torch.nn as nn
 from torch.hub import load_state_dict_from_url
 
+__all__ = ['MyModel', 'model']
+
 model_urls = {
 	'model': "https://github.com/atifadib/torch_hub_test/blob/main/model_resources/model_v1.pth"
 }
