@@ -4,7 +4,7 @@ from torch.hub import load_state_dict_from_url
 __all__ = ['MyModel', 'model']
 
 model_urls = {
-	'model': "https://github.com/atifadib/torch_hub_test/blob/main/model_resources/model_v1.pth"
+     'model': "https://github.com/atifadib/torch_hub_test/raw/main/model_resources/model_v1.pth"
 }
 
 class MyModel(nn.Module):
