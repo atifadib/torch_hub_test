@@ -2,7 +2,7 @@ import torch.nn as nn
 from torch.hub import load_state_dict_from_url
 
 model_urls = {
-	'model': ""
+	'model': "https://github.com/atifadib/torch_hub_test/blob/main/model_resources/model_v1.pth"
 }
 
 class MyModel(nn.Module):
