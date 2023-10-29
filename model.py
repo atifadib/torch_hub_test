@@ -16,7 +16,7 @@ class MyModel(nn.Module):
 		x = nn.functional.sigmoid(self.fc2(x))
 		return x
 
-def load_model(pretrained=True, progress=True, **kwargs):
+def model(pretrained=True, progress=True, **kwargs):
 	model = MyModel(**kwargs)
 	if pretrained:
 		state_dict = load_state_dict_from_url(model_urls['model'], progress=progress)
